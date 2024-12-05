@@ -15,7 +15,7 @@ class _SplashState extends State<Splash> {
 
   @override
   void initState() {
-    Timer(Duration(seconds: 3), () {
+    Timer(Duration(seconds: 5), () {
       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=>HomePage()));
     });
     super.initState();
@@ -29,7 +29,7 @@ class _SplashState extends State<Splash> {
       body: Center(
           child:CircleAvatar(
             radius: 70,
-            backgroundImage: NetworkImage("https://play-lh.googleusercontent.com/5uDUy2xH-2wovIrVPyMuXnyklMB4KFAmmx40d3yGX-RRBfdZRlhd7Us1x3P_xkJL5Cs=w240-h480-rw"),
+            backgroundImage: NetworkImage("https://play-lh.googleusercontent.com/gEwOY_6Z_ogiTYZUMDca0Lj5R86fV-MRO71lx17Xctalm_5eNhpFEl7lWo2gGUp-lKg=w600-h300-pc0xffffff-pd"),
           )
       ),
     );
