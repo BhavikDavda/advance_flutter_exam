@@ -76,14 +76,14 @@ class QuoteDetailPage extends StatelessWidget {
                 onPressed: () => Navigator.pop(context),
                 style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 12.0),
-                  backgroundColor: Colors.deepPurple,
+                  backgroundColor: Colors.grey.shade200,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0),
                   ),
                 ),
                 child: Text(
                   'Back',
-                  style: GoogleFonts.roboto(fontSize: 16, color: Colors.white),
+                  style: GoogleFonts.roboto(fontSize: 16, color: Colors.black),
                 ),
               ),
             ),

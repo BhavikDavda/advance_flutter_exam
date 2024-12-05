@@ -2,7 +2,6 @@ import 'package:advance_flutter_exam/screens/diatalpage.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-
 import '../provider/apiprovider.dart';
 
 class HomePage extends StatelessWidget {
